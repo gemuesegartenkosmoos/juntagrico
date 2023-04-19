@@ -172,3 +172,8 @@ SHARE_PRICE = "200"
 INFO_EMAIL = "info@gemuesegartenkosmoos.ch"
 SERVER_URL = "www.gemuesegartenkosmoos.org"
 STYLES = {'static': ['gemuesegartenkosmoos/css/customize.css']}
+
+USE_TZ = True
+TIME_ZONE = 'Europe/Zurich'
+
+FROM_FILTER = {'filter_expression': r'info@gemuesegartenkosmoos\.ch', 'replacement_from': 'info@gemuesegartenkosmoos.ch'}
