@@ -163,8 +163,8 @@ ORGANISATION_ADDRESS = {"name":"Gemüsegarten Kosmoos",
             "city" : "Kirchberg",
             "extra" : ""}
 ORGANISATION_BANK_CONNECTION = {"PC" : "-",
-            "IBAN" : "-",
-            "BIC" : "-",
+            "IBAN" : "CH2408390039389810002",
+            "BIC" : "ABSOCH22",
             "NAME" : "ABS",
             "ESR" : ""}
 SHARE_PRICE = "50"
