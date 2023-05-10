@@ -167,7 +167,7 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "-",
             "BIC" : "-",
             "NAME" : "ABS",
             "ESR" : ""}
-SHARE_PRICE = "200"
+SHARE_PRICE = "50"
 
 INFO_EMAIL = "info@gemuesegartenkosmoos.ch"
 SERVER_URL = "www.gemuesegartenkosmoos.org"
