@@ -1,5 +1,5 @@
 .juntagrico-logo {
-    /* See https://juntagrico.readthedocs.io/en/latest/theming.html#change-the-logo to change the logo */
+    background: url('/static/gemuesegartenkosmoos/img/Logo quadratisch.jpg') center center;
     background-size: contain;
     display: inline-block;
     width: 580px;
