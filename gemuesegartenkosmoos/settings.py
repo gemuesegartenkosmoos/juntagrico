@@ -176,4 +176,4 @@ STYLES = {'static': ['gemuesegartenkosmoos/css/customize.css']}
 USE_TZ = True
 TIME_ZONE = 'Europe/Zurich'
 
-FROM_FILTER = {'filter_expression': r'info@gemuesegartenkosmoos\.ch', 'replacement_from': 'info@gemuesegartenkosmoos.ch'}
+FROM_FILTER = {'filter_expression': r'solawi@juntagrico\.ch', 'replacement_from': 'solawi@juntagrico.ch'}
