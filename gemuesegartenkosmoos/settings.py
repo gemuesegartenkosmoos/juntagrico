@@ -177,3 +177,5 @@ USE_TZ = True
 TIME_ZONE = 'Europe/Zurich'
 
 FROM_FILTER = {'filter_expression': r'solawi@juntagrico\.ch', 'replacement_from': 'solawi@juntagrico.ch'}
+
+DEPOT_LIST_GENERATION_DAYS=[2]
