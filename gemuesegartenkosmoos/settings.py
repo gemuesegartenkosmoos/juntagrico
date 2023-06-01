@@ -171,7 +171,7 @@ SHARE_PRICE = "50"
 
 INFO_EMAIL = "info@gemuesegartenkosmoos.ch"
 SERVER_URL = "www.gemuesegartenkosmoos.org"
-STYLES = {  'template': '/static/gemuesegartenkosmoos/styles_template.txt', 
+STYLES = {  'template': 'gemuesegartenkosmoos/styles_template.txt', 
             'static': ['gemuesegartenkosmoos/css/customize.css']}
 
 USE_TZ = True
