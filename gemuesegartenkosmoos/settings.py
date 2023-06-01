@@ -180,4 +180,6 @@ FROM_FILTER = {'filter_expression': r'solawi@juntagrico\.ch', 'replacement_from'
 
 DEPOT_LIST_GENERATION_DAYS = [2]
 
-VOCABULARY = { 'package': 'Kiste' }
+VOCABULARY = { "package": "Kiste" }
+
+FAVICON = "/static/gemuesegartenkosmoos/img/favicon.ico"
