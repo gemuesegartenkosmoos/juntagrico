@@ -171,7 +171,7 @@ SHARE_PRICE = "50"
 
 INFO_EMAIL = "info@gemuesegartenkosmoos.ch"
 SERVER_URL = "www.gemuesegartenkosmoos.org"
-STYLES = {  'template': 'gemuesegartenkosmoos/styles_template.txt', 
+STYLES = {  'template': '/static/gemuesegartenkosmoos/styles_template.txt', 
             'static': ['gemuesegartenkosmoos/css/customize.css']}
 
 USE_TZ = True
@@ -182,5 +182,3 @@ FROM_FILTER = {'filter_expression': r'solawi@juntagrico\.ch', 'replacement_from'
 DEPOT_LIST_GENERATION_DAYS = [2]
 
 VOCABULARY = { "package": "Kiste" }
-
-FAVICON = "/static/gemuesegartenkosmoos/img/favicon-32x32.png"
