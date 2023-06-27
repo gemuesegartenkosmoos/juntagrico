@@ -169,7 +169,7 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "-",
             "ESR" : ""}
 SHARE_PRICE = "50"
 
-INFO_EMAIL = "info@gemuesegartenkosmoos.ch"
+INFO_EMAIL = "admin@gemuesegartenkosmoos.ch"
 SERVER_URL = "www.gemuesegartenkosmoos.org"
 STYLES = { 'static': ['gemuesegartenkosmoos/css/customize.css']}
 
