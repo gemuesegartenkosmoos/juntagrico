@@ -169,14 +169,14 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "-",
             "ESR" : ""}
 SHARE_PRICE = "50"
 
-INFO_EMAIL = "admin@gemuesegartenkosmoos.ch"
+INFO_EMAIL = "info@gemuesegartenkosmoos.ch"
 SERVER_URL = "www.gemuesegartenkosmoos.ch"
 STYLES = { 'static': ['gemuesegartenkosmoos/css/customize.css']}
 
 USE_TZ = True
 TIME_ZONE = 'Europe/Zurich'
 
-FROM_FILTER = {'filter_expression': r'solawi@juntagrico\.ch', 'replacement_from': 'solawi@juntagrico.ch'}
+FROM_FILTER = {'filter_expression': r'solawi@juntagrico\.ch', 'replacement_from': 'info@gemuesegartenkosmoos.ch'}
 
 DEPOT_LIST_GENERATION_DAYS = [2]
 
