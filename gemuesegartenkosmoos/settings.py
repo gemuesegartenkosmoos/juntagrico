@@ -27,11 +27,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
-    'juntagrico',
+    'gemuesegartenkosmoos',
+    'juntagrico',  # juntagrico muss neu nach den addons stehen
+    'fontawesomefree',  # benötigt ab 1.6
+    'import_export',  # benötigt ab 1.6
     'impersonate',
     'crispy_forms',
     'adminsortable2',
-    'gemuesegartenkosmoos',
     'polymorphic',
 ]
 
@@ -138,13 +140,20 @@ if DEBUG is True:
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
+STORAGES = {
+    "default": {
+        "BACKEND": "django.core.files.storage.FileSystemStorage",
+    },
+    "staticfiles": {
+        "BACKEND": "django.contrib.staticfiles.storage.ManifestStaticFilesStorage",
+    },
+}
 
 IMPERSONATE = {
     'REDIRECT_URL': '/my/profile',
 }
 
-LOGIN_REDIRECT_URL = "/my/home"
+LOGIN_REDIRECT_URL = "/"
 
 """
     File & Storage Settings
@@ -176,8 +185,15 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "-",
             "ESR" : ""}
 SHARE_PRICE = "50"
 
-INFO_EMAIL = "info@gemuesegartenkosmoos.ch"
-SERVER_URL = "www.gemuesegartenkosmoos.ch"
+CONTACTS = {
+    "general": "info@gemuesegartenkosmoos.ch"
+}
+
+ORGANISATION_WEBSITE = {
+    'name': "Gemüsegarten Kosmoos",
+    'url': "https://www.gemuesegartenkosmoos.ch"
+}
+
 STYLES = { 'static': ['gemuesegartenkosmoos/css/customize.css']}
 
 USE_TZ = True
@@ -188,3 +204,5 @@ FROM_FILTER = {'filter_expression': r'solawi@juntagrico\.ch', 'replacement_from'
 DEPOT_LIST_GENERATION_DAYS = [2]
 
 VOCABULARY = { "package": "Kiste" }
+
+IMPORT_EXPORT_EXPORT_PERMISSION_CODE = 'view'
