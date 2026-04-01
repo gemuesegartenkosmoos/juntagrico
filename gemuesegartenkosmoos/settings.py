@@ -63,6 +63,7 @@ TEMPLATES = [
                 'django.template.context_processors.tz',
                 'django.template.context_processors.request',
                 'django.contrib.messages.context_processors.messages',
+                'juntagrico.context_processors.vocabulary',
             ],
             'loaders': [
                 'django.template.loaders.filesystem.Loader',
@@ -190,7 +191,7 @@ CONTACTS = {
 }
 
 ORGANISATION_WEBSITE = {
-    'name': "Gemüsegarten Kosmoos",
+    'name': "www.gemuesegartenkosmoos.ch",
     'url': "https://www.gemuesegartenkosmoos.ch"
 }
 
@@ -206,3 +207,10 @@ DEPOT_LIST_GENERATION_DAYS = [2]
 VOCABULARY = { "package": "Kiste" }
 
 IMPORT_EXPORT_EXPORT_PERMISSION_CODE = 'view'
+
+REQUIRED_SHARES = 1
+
+ALLOW_JOB_UNSUBSCRIBE = false
+
+ENABLE_NOTIFICATIONS = ['job_subscribed']
+DISABLE_NOTIFICATIONS = []
